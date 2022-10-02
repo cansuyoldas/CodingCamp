@@ -1,13 +1,18 @@
-package MiniProject1;
+package MiniProject2;
 
 public class Main {
 
 	public static void main(String[] args) {
-		//Ders 19: Sayı Asal mı ödevi
-		NumberUtility numbUtility= new NumberUtility(99);
-		numbUtility.checkPrimeNumber();
-		numbUtility.setNumber(17);
-		numbUtility.checkPrimeNumber();
+		// Video 20: Kalın sesli mi ince sesli mi ödevi
+		Letters letter= new Letters("A");
+		letter.checkLetter();
+		
+		letter.setLetter("K");
+		letter.checkLetter();
+		
+		letter.setLetter("E");
+		letter.checkLetter();
+
 	}
 
 }

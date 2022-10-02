@@ -1,17 +1,15 @@
-package MiniProject3;
+package MiniProject4;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// Video 21: Mükemmel sayı 
-		PerfectNumbersUtility ut = new PerfectNumbersUtility(28);
-		ut.checkPerfectNumber();
+		// Video 4: Arkadaş Sayılar
+		FriendNumbersUtility ut = new FriendNumbersUtility(220,284);
+		ut.checkFriendNumber();
 		
-		ut.setNumber(6);
-		ut.checkPerfectNumber();
-		
-		ut.setNumber(7);
-		ut.checkPerfectNumber();
+		ut.setNumbA(189);
+		ut.setNumbB(17);
+		ut.checkFriendNumber();
 
 	}
 

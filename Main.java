@@ -1,17 +1,17 @@
-package MiniProject2;
+package MiniProject3;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// Video 20: Kalın sesli mi ince sesli mi ödevi
-		Letters letter= new Letters("A");
-		letter.checkLetter();
+		// Video 21: Mükemmel sayı 
+		PerfectNumbersUtility ut = new PerfectNumbersUtility(28);
+		ut.checkPerfectNumber();
 		
-		letter.setLetter("K");
-		letter.checkLetter();
+		ut.setNumber(6);
+		ut.checkPerfectNumber();
 		
-		letter.setLetter("E");
-		letter.checkLetter();
+		ut.setNumber(7);
+		ut.checkPerfectNumber();
 
 	}
 
